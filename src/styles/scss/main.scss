@@ -1,0 +1,9 @@
+@import '../../../pancake/sass/pancake.scss';
+
+.page-content {
+    .container {
+        width: 740px;
+        border: solid 1px #979797;
+        @include AU-space( padding-top, 3unit );
+    }
+}
