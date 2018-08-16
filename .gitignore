@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Generated CSS files
+public/styles/css/main.css
+
 # Dependency directories
 node_modules/
 pancake/

@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import NextButton from '../Components/NextButton';
-// import Slider from 'rc-slider/lib/Slider'
-
-// import 'rc-slider/assets/index.css'
 
 import DHSlider from '../Components/DHSlider'
 
