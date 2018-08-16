@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AppHeader from '../Components/AppHeader';
 
 
 export default class PageLayout extends Component {
@@ -9,7 +10,7 @@ export default class PageLayout extends Component {
                     <p>progress bar component will come here</p>
                 </div>
                 <header>
-                    <p>header component will come here</p>
+                    <AppHeader></AppHeader>
                 </header>
                 <main>
                     <p>page content will be injected here</p>
