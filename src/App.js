@@ -1,16 +1,9 @@
-import React, { Component } from 'react';
-import Page from "./Containers/Page";
+import React from 'react';
+import PageLayout from "./Containers/PageLayout";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="page-content" id="page-content">
-          <div className="container">
-              <Page></Page>
-          </div>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <PageLayout></PageLayout>
+  );
 }
 
-export default App;
