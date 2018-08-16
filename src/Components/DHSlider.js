@@ -4,10 +4,10 @@ import Tooltip from 'rc-tooltip'
 
 import 'rc-slider/assets/index.css'
 
-const Handle = Slider.Handle;
+const Handle = Slider.Handle
 
 const handle = (props) => {
-  const { value, dragging, index, ...restProps } = props;
+  const { value, dragging, index, ...restProps } = props
   return (
     <Tooltip
       prefixCls="rc-slider-tooltip"
@@ -22,12 +22,12 @@ const handle = (props) => {
 };
 
 const DHSlider = ({leftLabel, rightLabel, ...sliderProps}) => (
-    <div className="dhslider">
-        <span className="dhslider__label dhslider__label--left">{leftLabel}</span>
-        <div className="dhslider__slider">
+    <div className="dh-slider">
+        <span className="dh-slider__label dh-slider__label--left">{leftLabel}</span>
+        <div className="dh-slider__slider">
             <Slider {...sliderProps} handle={handle} />
         </div>        
-        <span className="dhslider__label dhslider__label--right">{rightLabel}</span>
+        <span className="dh-slider__label dh-slider__label--right">{rightLabel}</span>
     </div>
 )
 
