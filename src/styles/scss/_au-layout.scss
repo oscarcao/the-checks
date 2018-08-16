@@ -1,0 +1,10 @@
+@import './_au-variables.scss';
+
+.au-app {
+    &.container {
+        width: 740px;
+        height: auto;
+        @include AU-space(padding, 2unit);
+        border: solid 1px $grey-color;
+    }
+}

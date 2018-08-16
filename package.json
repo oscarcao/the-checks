@@ -60,5 +60,7 @@
       "location": "pancake/react/"
     }
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@gov.au/headings": "^2.0.7"
+  }
 }
