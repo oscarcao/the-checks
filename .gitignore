@@ -21,8 +21,9 @@ pancake/
 # Optional eslint cache
 .eslintcache
 
-# Yarn Integrity file
+# Yarn files
 .yarn-integrity
+yarn.lock
 
 # dotenv environment variables file
 .env
