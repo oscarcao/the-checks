@@ -1,5 +1,8 @@
 @import '../../../pancake/sass/pancake.scss';
-@import './_au-layout.scss';
+@import '_au-fonts.scss';
+@import '_au-layout.scss';
+@import '_au-variables.scss';
+@import '_dhslider.scss';
 
 .page-content {
     .container {
