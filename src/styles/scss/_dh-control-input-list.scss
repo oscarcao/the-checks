@@ -1,0 +1,51 @@
+.dh-control-input-list {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    .dh-control-input-list__option {
+        background: #efefef;
+        padding: 10px 10px 5px;
+        margin-bottom: 5px;
+
+        label {
+            display: block;
+        }
+
+        &.selected,
+        &:hover,
+        &:focus {            
+            background: #14b690;
+
+            .au-control-input__input[type=checkbox] {
+                & + .au-control-input__text{
+                    color: #fff;
+
+                    &:before {
+                        @include AU-getControlShape( 'checkbox', 'background', #fff, #14b690 );
+                    }
+                }
+                &:checked + .au-control-input__text {
+                    &:after {
+                        @include AU-getControlShape( 'checkbox', 'foreground', #fff );
+                    }
+                }        
+            }
+
+            .au-control-input__input[type=radio] {
+                & + .au-control-input__text {
+                    color: #fff;
+                    
+                    &:before {
+                        @include AU-getControlShape( 'radio', 'background', #fff, #14b690 );
+                    }
+                }
+                &:checked + .au-control-input__text {
+                    &:after {
+                        @include AU-getControlShape( 'radio', 'foreground', #fff );
+                    }
+                }
+            }
+        }
+    }
+}

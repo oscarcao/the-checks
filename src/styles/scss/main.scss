@@ -2,8 +2,10 @@
 @import '_au-fonts.scss';
 @import '_au-layout.scss';
 @import '_au-variables.scss';
-@import '_dh-slider.scss';
 @import '_au-header.scss';
+
+@import '_dh-slider.scss';
+@import '_dh-control-input-list.scss';
 
 .page-content {
     .container {

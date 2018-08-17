@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AppHeader from '../Components/AppHeader';
 
+import Page from './Page'
 
 export default class PageLayout extends Component {
     render() {
@@ -14,6 +15,7 @@ export default class PageLayout extends Component {
                 </header>
                 <main>
                     <p>page content will be injected here</p>
+                    <Page></Page>
                 </main>
                 <footer>
                     <p>footer component will come here</p>
