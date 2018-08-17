@@ -14,32 +14,29 @@ export default class DHControlInputList extends React.PureComponent {
         maxSelection: this.props.maxSelection,
     }
 
-    handleChange = (elIndex) => {
-        const options = [...this.state.options]
-
-        const newOptions = options.map((option, index) => {
-
-            if (this.state.type !== 'checkbox') {                
-                const selected = elIndex !== index ? false : true                   
-
-                return {
-                    ...option,
-                    isSelected: selected
+    handleChange = (selectedIndex) => {
+        this.setState( prevState => {
+            const newOptions = prevState.options.map((option, index) => {
+                if (this.state.type !== 'checkbox') {                
+                    const selected = selectedIndex !== index ? false : true                   
+    
+                    return {
+                        ...option,
+                        isSelected: selected
+                    }
                 }
-            }
-
-            if(elIndex === index) {
-                return {
-                    ...option,
-                    isSelected: option.isSelected ? false : true
+    
+                if(selectedIndex === index) {
+                    return {
+                        ...option,
+                        isSelected: option.isSelected ? false : true
+                    }
                 }
-            }
+    
+                return option
+            })
 
-            return option
-        })
-
-        this.setState({
-            options: newOptions,
+            return { options: newOptions }
         })
     }
 
@@ -53,7 +50,15 @@ export default class DHControlInputList extends React.PureComponent {
 
         return (
             <fieldset className="dh-control-input-list">
-                { options.map(({isSelected, ...option} = option, index) => ( <div className={`dh-control-input-list__option ${isSelected ? 'selected' : ''}`} key={option.name + index}><Type {...option} onChange={() => this.handleChange(index)} alt={true} /></div> )) }
+                { options.map((option, index) => { 
+                    const {isSelected, ...controlInputProps} = option
+
+                    return ( 
+                        <div className={`dh-control-input-list__option ${isSelected ? 'selected' : ''}`} key={option.name + index}>
+                            <Type {...controlInputProps} onChange={() => this.handleChange(index)} alt={true} />
+                        </div> 
+                    )
+                })}
             </fieldset>
         )
     }
