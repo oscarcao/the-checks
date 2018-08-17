@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppHeader from '../Components/AppHeader';
 import WhoDependsPage from './WhoDependsPage';
 import ProgressBar from '../Components/ProgressBar';
+import NextButton from '../Components/NextButton';
 
 
 
@@ -16,10 +17,10 @@ export default class PageLayout extends Component {
                     <AppHeader></AppHeader>
                 </header>
                 <main>
-                    <WhoDependsPage></WhoDependsPage>
+                    <WhoDependsPage ></WhoDependsPage>
                 </main>
                 <footer>
-                    <p>footer component will come here</p>
+                    <NextButton></NextButton>
                 </footer>
             </div>
         );
