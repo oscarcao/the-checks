@@ -1,0 +1,112 @@
+.icon {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 25px;
+
+    &-circle {
+        width: 120px;
+        margin: 0 auto;
+
+        input {
+            margin:0;
+            padding:0;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            appearance:none;
+
+            &:checked {
+                +&-cover {
+                    -webkit-filter: none;
+                    -moz-filter: none;
+                    filter: none;
+                }
+            }
+        }
+
+        &-cover {
+            cursor:pointer;
+            background-size:contain;
+            background-repeat:no-repeat;
+            display:inline-block;
+            width: 120px;
+            height: 120px;
+        }
+    }
+    &-text {
+        font-family: "opensans-semibold";
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: $greyish-brown;
+        margin: 0 auto;
+    }
+}
+
+.partner-icon {
+    background-image:url(../../images/partner.svg);
+    &-selected {
+        background-image:url(../../images/partner-selected.svg);
+    }
+}
+
+.children-icon {
+    background-image:url(../../images/children.svg);
+    &-selected {
+        background-image:url(../../images/children-selected.svg);
+    }
+}
+
+.grandkids-icon {
+    background-image:url(../../images/grandkids.svg);
+    &-selected {
+        background-image:url(../../images/grandkids-selected.svg);
+    }
+}
+
+.close-friends-icon {
+    background-image:url(../../images/close-friends.svg);
+    &-selected {
+        background-image:url(../../images/close-friends-selected.svg);
+    }
+}
+
+.siblings-icon {
+    background-image:url(../../images/siblings.svg);
+    &-selected {
+        background-image:url(../../images/grandkids-siblings.svg);
+    }
+}
+
+.parents-icon {
+    background-image:url(../../images/parents.svg);
+    &-selected {
+        background-image:url(../../images/grandkids-parents.svg);
+    }
+}
+
+.pets-icon {
+    background-image:url(../../images/pets.svg);
+    &-selected {
+        background-image:url(../../images/pets-selected.svg);
+    }
+}
+
+.community-icon {
+    background-image:url(../../images/community.svg);
+    &-selected {
+        background-image:url(../../images/community-selected.svg);
+    }
+}
+
+.none-icon {
+    background-image:url(../../images/none.svg);
+    &-selected {
+        background-image:url(../../images/none-selected.svg);
+    }
+}
+
