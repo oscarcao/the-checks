@@ -6,6 +6,7 @@
 @import '_au-header.scss';
 @import '_au-icon.scss';
 @import '_au-question-option.scss';
+@import '_au-who-depends-page.scss';
 
 .page-content {
     .container {
@@ -13,4 +14,8 @@
         border: solid 1px #979797;
         @include AU-space( padding-top, 3unit );
     }
+}
+
+.center-text {
+    text-align: center;
 }

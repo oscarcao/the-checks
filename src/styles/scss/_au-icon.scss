@@ -1,6 +1,5 @@
 .icon {
     width: 150px;
-    float: left;
     margin-right: 10px;
     margin-bottom: 25px;
 
@@ -78,14 +77,14 @@
 .siblings-icon {
     background-image:url(../../images/siblings.svg);
     &-selected {
-        background-image:url(../../images/grandkids-siblings.svg);
+        background-image:url(../../images/siblings-selected.svg);
     }
 }
 
 .parents-icon {
     background-image:url(../../images/parents.svg);
     &-selected {
-        background-image:url(../../images/grandkids-parents.svg);
+        background-image:url(../../images/parents-selected.svg);
     }
 }
 
