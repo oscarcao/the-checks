@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="463" height="80" viewBox="0 0 463 80">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#979797" d="M-137.5-381.5h739v660h-739z"/>
+        <path fill="#008198" d="M0 0h463v80H0z"/>
+        <text fill="#FFF" font-family="OpenSans-Semibold, Open Sans" font-size="30" font-weight="500">
+            <tspan x="97.264" y="52">LET’S GET STARTED</tspan>
+        </text>
+    </g>
+</svg>
