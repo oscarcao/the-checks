@@ -1,0 +1,14 @@
+.progress-bar {
+    position: relative;
+    height: 14px;
+    width: 100%;
+    border-radius: 9px;
+    background-color: #d8d8d8;
+  }
+  
+  .filler {
+    height: 100%;
+    transition: width .2s ease-in;
+    border-radius: 9px;
+    background-color: #14b690;
+  }

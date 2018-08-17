@@ -3,6 +3,11 @@
 @import '_au-layout.scss';
 @import '_au-variables.scss';
 @import '_au-header.scss';
+@import '_au-icon.scss';
+@import '_au-question-option.scss';
+@import '_au-who-depends-page.scss';
+@import '_au-progressbar.scss';
+@import '_au-next-button.scss';
 
 @import '_dh-slider.scss';
 @import '_dh-control-input-list.scss';
@@ -13,4 +18,8 @@
         border: solid 1px #979797;
         @include AU-space( padding-top, 3unit );
     }
+}
+
+.center-text {
+    text-align: center;
 }

@@ -5,7 +5,9 @@ export default class NextButton extends Component {
     render() {
         const buttonText = "NEXT";
         return (
-            <AUbutton>{buttonText}</AUbutton>
+            <div className="button-wrapper">
+                <AUbutton>{buttonText}</AUbutton>
+            </div>
         );
     }
 }
