@@ -1,23 +1,23 @@
-.dhslider {
+.dh-slider {
     padding: 1rem 0;
 
-    .dhslider__label {
+    .dh-slider__label {
         display: inline-block;
         width: 25%;
         padding: 0 1rem;
         box-sizing: border-box;
         line-height: 35px;
 
-        &.dhslider__label--left {
+        &.dh-slider__label--left {
             text-align: right;
         }
 
-        &.dhslider__label--right {
+        &.dh-slider__label--right {
             text-align: left;
         }
     }
 
-    .dhslider__slider {
+    .dh-slider__slider {
         display: inline-block;
         width: 50%;
         vertical-align: middle;

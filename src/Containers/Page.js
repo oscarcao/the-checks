@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NextButton from '../Components/NextButton';
 
 import DHSlider from '../Components/DHSlider'
+import DHControlInputList from '../Components/DHControlInputList'
 
 export default class Page extends Component {
     render() {
