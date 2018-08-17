@@ -17,7 +17,7 @@ export default class DHControlInputList extends React.PureComponent {
     handleChange = (selectedIndex) => {
         this.setState( prevState => {
             const newOptions = prevState.options.map((option, index) => {
-                if (this.state.type !== 'checkbox') {                
+                if (prevState.type !== 'checkbox') {                
                     const selected = selectedIndex !== index ? false : true                   
     
                     return {
