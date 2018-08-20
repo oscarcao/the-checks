@@ -4,7 +4,7 @@
     border: none;
 
     .dh-control-input-list__option {
-        background: #efefef;
+        background: $AU-color-background;
         padding: 10px 10px 5px;
         margin-bottom: 5px;
 
@@ -15,34 +15,34 @@
         &.checked,
         &:hover,
         &:focus {            
-            background: #14b690;
+            background: $AU-color-foreground-action;
 
             .au-control-input__input[type=checkbox] {
                 & + .au-control-input__text{
-                    color: #fff;
+                    color: $AU-colordark-foreground-text;
 
                     &:before {
-                        @include AU-getControlShape( 'checkbox', 'background', #fff, #14b690 );
+                        @include AU-getControlShape( 'checkbox', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
                     }
                 }
                 &:checked + .au-control-input__text {
                     &:after {
-                        @include AU-getControlShape( 'checkbox', 'foreground', #fff );
+                        @include AU-getControlShape( 'checkbox', 'foreground', $AU-colordark-foreground-text );
                     }
                 }        
             }
 
             .au-control-input__input[type=radio] {
                 & + .au-control-input__text {
-                    color: #fff;
+                    color: $AU-colordark-foreground-text;
                     
                     &:before {
-                        @include AU-getControlShape( 'radio', 'background', #fff, #14b690 );
+                        @include AU-getControlShape( 'radio', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
                     }
                 }
                 &:checked + .au-control-input__text {
                     &:after {
-                        @include AU-getControlShape( 'radio', 'foreground', #fff );
+                        @include AU-getControlShape( 'radio', 'foreground', $AU-colordark-foreground-text );
                     }
                 }
             }

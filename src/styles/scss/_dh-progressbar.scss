@@ -1,0 +1,15 @@
+.dh-progressbar {
+  position: relative;
+  height: 14px;
+  width: 100%;
+  border-radius: 9px;
+  background-color: $AU-color-background;
+  margin: 20px 0;
+
+  .dh-progressbar__filler {
+    height: 100%;
+    transition: width .2s ease-in;
+    border-radius: 9px;
+    background-color: $AU-color-foreground-action;
+  }
+}

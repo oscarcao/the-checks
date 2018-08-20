@@ -1,9 +1,10 @@
 import React from 'react';
-import PageLayout from "./Containers/PageLayout";
+
+import Page from "./Containers/Page";
 
 export default function App() {
   return (
-    <PageLayout></PageLayout>
+    <Page />
   );
 }
 
