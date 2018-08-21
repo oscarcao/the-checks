@@ -2,48 +2,48 @@
     margin: 0;
     padding: 0;
     border: none;
+}
 
-    .dh-control-input-list__option {
-        background: $AU-color-background;
-        padding: 10px 10px 5px;
-        margin-bottom: 5px;
+.dh-control-input-list__option {
+    background: $AU-color-background;
+    padding: 10px 10px 5px;
+    margin-bottom: 5px;
 
-        label {
-            display: block;
+    label {
+        display: block;
+    }
+
+    &.checked,
+    &:hover,
+    &:focus {            
+        background: $AU-color-foreground-action;
+
+        .au-control-input__input[type=checkbox] {
+            & + .au-control-input__text{
+                color: $AU-colordark-foreground-text;
+
+                &:before {
+                    @include AU-getControlShape( 'checkbox', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
+                }
+            }
+            &:checked + .au-control-input__text {
+                &:after {
+                    @include AU-getControlShape( 'checkbox', 'foreground', $AU-colordark-foreground-text );
+                }
+            }        
         }
 
-        &.checked,
-        &:hover,
-        &:focus {            
-            background: $AU-color-foreground-action;
-
-            .au-control-input__input[type=checkbox] {
-                & + .au-control-input__text{
-                    color: $AU-colordark-foreground-text;
-
-                    &:before {
-                        @include AU-getControlShape( 'checkbox', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
-                    }
+        .au-control-input__input[type=radio] {
+            & + .au-control-input__text {
+                color: $AU-colordark-foreground-text;
+                
+                &:before {
+                    @include AU-getControlShape( 'radio', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
                 }
-                &:checked + .au-control-input__text {
-                    &:after {
-                        @include AU-getControlShape( 'checkbox', 'foreground', $AU-colordark-foreground-text );
-                    }
-                }        
             }
-
-            .au-control-input__input[type=radio] {
-                & + .au-control-input__text {
-                    color: $AU-colordark-foreground-text;
-                    
-                    &:before {
-                        @include AU-getControlShape( 'radio', 'background', $AU-colordark-foreground-text, $AU-color-foreground-action );
-                    }
-                }
-                &:checked + .au-control-input__text {
-                    &:after {
-                        @include AU-getControlShape( 'radio', 'foreground', $AU-colordark-foreground-text );
-                    }
+            &:checked + .au-control-input__text {
+                &:after {
+                    @include AU-getControlShape( 'radio', 'foreground', $AU-colordark-foreground-text );
                 }
             }
         }
