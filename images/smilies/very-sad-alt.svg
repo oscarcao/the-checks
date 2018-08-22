@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-54.000000, -3838.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="740" height="3921"></rect>
+            <g transform="translate(55.000000, 3839.000000)">
+                <circle fill="#14B690" cx="20" cy="20" r="20"></circle>
+                <g id="noun_sad-face_1101097">
+                    <path d="M20,1.875 C30,1.875 38.125,10 38.125,20 C38.125,30 30,38.125 20,38.125 C10,38.125 1.875,30 1.875,20 C1.875,10 10,1.875 20,1.875 Z M20,0 C8.9375,0 0,8.9375 0,20 C0,31.0625 8.9375,40 20,40 C31.0625,40 40,31.0625 40,20 C40,8.9375 31.0625,0 20,0 Z" stroke="#14B690" fill="#14B690" fill-rule="nonzero"></path>
+                    <circle fill="#FFFFFF" fill-rule="nonzero" cx="12.5" cy="16.8125" r="2.8125"></circle>
+                    <circle fill="#FFFFFF" fill-rule="nonzero" cx="27.5" cy="16.8125" r="2.8125"></circle>
+                    <path d="M29.0625,28.4375 C27.4375,25.0625 24,22.75 20,22.75 C16,22.75 12.5625,25.0625 10.9375,28.4375" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

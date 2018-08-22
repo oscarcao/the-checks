@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-227.000000, -3837.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="740" height="3921"></rect>
+            <g transform="translate(227.000000, 3838.000000)">
+                <circle fill="#14B690" cx="20" cy="20" r="20"></circle>
+                <g transform="translate(1.000000, 1.000000)">
+                    <g transform="translate(8.666667, 9.750000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <ellipse cx="3.575" cy="4.65833333" rx="3.19583333" ry="4.33333333"></ellipse>
+                        <ellipse cx="18.2541667" cy="4.65833333" rx="3.19583333" ry="4.33333333"></ellipse>
+                    </g>
+                    <circle stroke="#14B690" stroke-width="3" cx="19.6083333" cy="19.5" r="19.1208333"></circle>
+                    <path d="M12.2416667,26.8125 L26.9208333,26.975" stroke="#FFFFFF" stroke-width="3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
