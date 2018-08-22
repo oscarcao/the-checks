@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="60" cy="60" r="60" fill="#14B690"/>
+        <circle cx="60" cy="60" r="57.5" stroke="#14B690" stroke-width="5"/>
+        <g transform="translate(47 26)">
+            <ellipse cx="13" cy="12.5" fill="#FFF" stroke="#FFF" stroke-width="2" rx="13" ry="12.5"/>
+            <path fill="#14B690" fill-rule="nonzero" d="M12.507 19.522a6.53 6.53 0 0 1-6.523-6.521H4c0 4.69 3.816 8.506 8.508 8.506a8.435 8.435 0 0 0 6.072-2.548A8.455 8.455 0 0 0 21.017 13l-1.984.002a6.493 6.493 0 0 1-1.87 4.568 6.47 6.47 0 0 1-4.656 1.952z"/>
+            <circle cx="8.182" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+            <circle cx="17.481" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+        </g>
+        <g transform="translate(19 65)">
+            <ellipse cx="13" cy="12.5" fill="#FFF" stroke="#FFF" stroke-width="2" rx="13" ry="12.5"/>
+            <path fill="#14B690" fill-rule="nonzero" d="M17.163 17.57a6.47 6.47 0 0 1-4.656 1.952 6.53 6.53 0 0 1-6.523-6.521H4c0 4.69 3.816 8.506 8.508 8.506a8.435 8.435 0 0 0 6.072-2.548v.001A8.46 8.46 0 0 0 21.017 13l-1.984.002a6.493 6.493 0 0 1-1.87 4.568z"/>
+            <circle cx="8.182" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+            <circle cx="17.481" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+        </g>
+        <g transform="translate(47 65)">
+            <ellipse cx="13" cy="12.5" fill="#FFF" stroke="#FFF" stroke-width="2" rx="13" ry="12.5"/>
+            <path fill="#14B690" fill-rule="nonzero" d="M17.163 17.57a6.47 6.47 0 0 1-4.656 1.952 6.53 6.53 0 0 1-6.523-6.521H4c0 4.69 3.816 8.506 8.508 8.506a8.435 8.435 0 0 0 6.072-2.548v.001A8.46 8.46 0 0 0 21.017 13l-1.984.002a6.493 6.493 0 0 1-1.87 4.568z"/>
+            <circle cx="8.182" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+            <circle cx="17.481" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+        </g>
+        <g transform="translate(75 65)">
+            <ellipse cx="13" cy="12.5" fill="#FFF" stroke="#FFF" stroke-width="2" rx="13" ry="12.5"/>
+            <path fill="#14B690" fill-rule="nonzero" d="M17.163 17.57a6.47 6.47 0 0 1-4.656 1.952 6.53 6.53 0 0 1-6.523-6.521H4c0 4.69 3.816 8.506 8.508 8.506a8.435 8.435 0 0 0 6.072-2.548v.001A8.46 8.46 0 0 0 21.017 13l-1.984.002a6.493 6.493 0 0 1-1.87 4.568z"/>
+            <circle cx="8.182" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+            <circle cx="17.481" cy="8.593" r="1.838" fill="#14B690" fill-rule="nonzero"/>
+        </g>
+    </g>
+</svg>

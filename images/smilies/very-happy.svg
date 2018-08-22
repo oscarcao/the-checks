@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle fill="#ffffff" cx="20" cy="20" r="20"></circle>
         <g transform="translate(-399.000000, -55.000000)" fill="#000000" fill-rule="nonzero">
             <g transform="translate(399.000000, 54.000000)">
                 <g transform="translate(0.000000, 0.594500)">

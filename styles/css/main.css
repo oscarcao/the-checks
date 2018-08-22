@@ -1934,20 +1934,61 @@ textarea.au-text-input {
     .dh-control-input__input:disabled + .dh-control-input__text {
       color: #595959; }
 
-.icon-style-smiley .dh-control-input__input + .dh-control-input__text:before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23313131' cx='16' cy='16' r='16'/%3E%3Ccircle fill='%23efefef' cx='16' cy='16' r='14'/%3E%3C/svg%3E"); }
+.icon-style-smiley .dh-control-input__text {
+  display: block;
+  color: #313131;
+  text-indent: -1000em;
+  text-align: left;
+  width: 48px;
+  width: 3rem;
+  height: 48px;
+  height: 3rem; }
+  .icon-style-smiley .dh-control-input__text:before, .icon-style-smiley .dh-control-input__text:after {
+    width: 48px;
+    width: 3rem;
+    height: 48px;
+    height: 3rem;
+    content: ' ';
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    z-index: 100;
+    left: -3px;
+    top: -3px;
+    border: 3px solid transparent; }
+  .icon-style-smiley .dh-control-input__text:after {
+    z-index: 101; }
 
-.icon-style-smiley .dh-control-input__input + .dh-control-input__text:after {
-  background-image: none; }
+.dh-control-input.icon-very-sad .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/very-sad.svg); }
 
-.icon-style-smiley .dh-control-input__input:checked + .dh-control-input__text:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23313131' cx='16' cy='16' r='11'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-very-sad .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/very-sad-alt.svg); }
 
-.icon-style-smiley .dh-control-input__input:disabled + .dh-control-input__text:before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23c1c1c1' cx='16' cy='16' r='16'/%3E%3Ccircle fill='%23dbdbdb' cx='16' cy='16' r='14'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-sad .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/sad.svg); }
 
-.icon-style-smiley .dh-control-input__input:disabled:checked + .dh-control-input__text:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23c1c1c1' cx='16' cy='16' r='11'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-sad .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/sad-alt.svg); }
+
+.dh-control-input.icon-neutral .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/neutral.svg); }
+
+.dh-control-input.icon-neutral .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/neutral-alt.svg); }
+
+.dh-control-input.icon-happy .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/happy.svg); }
+
+.dh-control-input.icon-happy .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/happy-alt.svg); }
+
+.dh-control-input.icon-very-happy .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/very-happy.svg); }
+
+.dh-control-input.icon-very-happy .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/smilies/very-happy-alt.svg); }
 
 .icon-style-circle .dh-control-input__input + .dh-control-input__text:before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23313131' cx='16' cy='16' r='16'/%3E%3Ccircle fill='%23efefef' cx='16' cy='16' r='14'/%3E%3C/svg%3E"); }
@@ -1982,34 +2023,36 @@ textarea.au-text-input {
 /**
  * The label text
  */
+/*
 .dh-control-input__text {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 4px 8px 8px 40px;
-  padding: 0.25rem 0.5rem 0.5rem 2.5rem;
-  margin-right: 16px;
-  margin-right: 1rem;
-  display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  color: #313131; }
-  .dh-control-input__text:before, .dh-control-input__text:after {
-    width: 38px;
-    width: 2.375rem;
-    height: 38px;
-    height: 2.375rem;
-    content: ' ';
-    display: block;
-    position: absolute;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    z-index: 100;
-    left: -3px;
-    top: -3px;
-    border: 3px solid transparent; }
-  .dh-control-input__text:after {
-    z-index: 101; }
+	@include AU-fontgrid( sm );
+	@include AU-space( padding, 0.25unit 0.5unit 0.5unit 2.5unit );
+	@include AU-space( margin-right, 1unit );
+	display: block;
+	font-family: $AU-font;
+	color: $AU-color-foreground-text;
 
+	// styling for both SVG layers
+	&:before,
+	&:after {
+		@include AU-space( width, 2.375unit );
+		@include AU-space( height, 2.375unit );
+		content: ' ';
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		background-repeat: no-repeat;
+		z-index: 100;
+		left: -3px; // offset for 3px border focus
+		top: -3px;  // offset for 3px border focus
+		border: 3px solid transparent;
+	}
+
+	&:after {
+		z-index: 101;
+	}
+}
+*/
 .dh-control-input-list {
   margin: 0;
   padding: 0;
@@ -2048,3 +2091,22 @@ textarea.au-text-input {
     transition: width .2s ease-in;
     border-radius: 9px;
     background-color: #14b690; }
+
+.dh-smiley-selector {
+  border: 1px solid #979797; }
+
+.dh-smiley-selector__heading {
+  margin-top: 8px;
+  margin-top: 0.5rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #4a4a4a; }
+
+.dh-smiley-selector__smiley {
+  display: inline-block;
+  width: 20%;
+  text-align: center; }
