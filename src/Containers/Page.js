@@ -32,6 +32,6 @@ export default () => (
         <h3>This is a Control Input List set to use Radio Buttons</h3>
         <DHControlInputList options={sampleOptions} type="radio" minSelection={2} maxSelection={5} />
         <h3>This is a Smiley Selector</h3>
-        <DHSmileySelector />
+        <DHSmileySelector name="smiley1" question="Your Money" />
     </Layout>
 )

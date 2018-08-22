@@ -8,6 +8,10 @@ yarn-error.log*
 # Build folder
 build/
 
+# Public Images
+public/images/icons/
+public/images/smilies/
+
 # Generated CSS files
 public/styles/css/main.css
 

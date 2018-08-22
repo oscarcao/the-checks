@@ -1,0 +1,195 @@
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// dh-control-input component
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+.dh-control-input {
+	display: inline-block;
+	position: relative;
+
+	&.dh-control-input--block {
+		@include AU-clearfix();
+		@include AU-space( margin-top, 1unit );
+		display: block;
+	}
+}
+
+.dh-control-input__input {
+	// hiding the native element behind our SVG so for browsers that don’t support SVG have a fallback
+	position: absolute;
+	@include AU-space( left, 0.5unit );
+	@include AU-space( top, 0.5unit );
+	cursor: pointer;
+
+	& + .dh-control-input__text {
+		cursor: pointer;
+	}
+
+	// focus
+	&:focus + .dh-control-input__text:before,
+	&:focus + .dh-control-input__text:after {
+		// Not using AU-focus as we are not applying :focus to this element
+		@include AU-outline();
+		outline-offset: 2px;
+	}
+
+	// disabled styling
+	&[disabled] { // for IE
+		cursor: not-allowed;
+
+		& + .dh-control-input__text {
+			cursor: not-allowed;
+		}
+
+		& + .dh-control-input__text {
+			color: $AU-color-foreground-muted;
+		}
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+
+		& + .dh-control-input__text {
+			cursor: not-allowed;
+		}
+
+		& + .dh-control-input__text {
+			color: $AU-color-foreground-muted;
+		}
+	}
+}
+
+// SMILEY STYLE
+.icon-style-smiley {
+    .dh-control-input__text {
+        display: block;
+        color: $AU-color-foreground-text;
+        text-indent: -1000em;
+        text-align: left;
+        @include AU-space( width, 3unit );
+        @include AU-space( height, 3unit );
+
+        // styling for both SVG layers
+        &:before,
+        &:after {
+            @include AU-space( width, 3unit );
+            @include AU-space( height, 3unit );
+            content: ' ';
+            display: block;
+            position: absolute;
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+            z-index: 100;
+            left: -3px; // offset for 3px border focus
+            top: -3px;  // offset for 3px border focus
+            border: 3px solid transparent;
+        }
+    
+        &:after {
+            z-index: 101;
+        }
+    }
+}
+
+@import '_dh-control-input-smilies.scss';
+
+// CIRCLE STYLE
+.icon-style-circle {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                @include AU-getControlShape( 'radio', 'background', $AU-color-foreground-text, $AU-color-background );
+            }
+
+            &:after {
+                background-image: none;
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:after {
+                @include AU-getControlShape( 'radio', 'foreground', $AU-color-foreground-text );
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                @include AU-getControlShape( 'radio', 'background', mix( $AU-color-foreground-text, $AU-color-background-shade, 20% ), $AU-color-background-alt );
+            }
+
+            &:checked + .dh-control-input__text:after {
+                @include AU-getControlShape( 'radio', 'foreground', mix( $AU-color-foreground-text, $AU-color-background-shade, 20% ) );
+            }
+        }
+    }
+}
+
+// SQUARE STYLE
+.icon-style-square {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                @include AU-getControlShape( 'radio', 'background', $AU-color-foreground-text, $AU-color-background );
+            }
+
+            &:after {
+                background-image: none;
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:after {
+                @include AU-getControlShape( 'radio', 'foreground', $AU-color-foreground-text );
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                @include AU-getControlShape( 'radio', 'background', mix( $AU-color-foreground-text, $AU-color-background-shade, 20% ), $AU-color-background-alt );
+            }
+
+            &:checked + .dh-control-input__text:after {
+                @include AU-getControlShape( 'radio', 'foreground', mix( $AU-color-foreground-text, $AU-color-background-shade, 20% ) );
+            }
+        }
+    }
+}
+
+/**
+ * The label text
+ */
+ /*
+.dh-control-input__text {
+	@include AU-fontgrid( sm );
+	@include AU-space( padding, 0.25unit 0.5unit 0.5unit 2.5unit );
+	@include AU-space( margin-right, 1unit );
+	display: block;
+	font-family: $AU-font;
+	color: $AU-color-foreground-text;
+
+	// styling for both SVG layers
+	&:before,
+	&:after {
+		@include AU-space( width, 2.375unit );
+		@include AU-space( height, 2.375unit );
+		content: ' ';
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		background-repeat: no-repeat;
+		z-index: 100;
+		left: -3px; // offset for 3px border focus
+		top: -3px;  // offset for 3px border focus
+		border: 3px solid transparent;
+	}
+
+	&:after {
+		z-index: 101;
+	}
+}
+*/

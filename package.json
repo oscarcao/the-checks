@@ -21,10 +21,14 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "clean:build": "rm -rf build",
+    "clean:publicResources": "rm -rf public/images/icons",
+    "clean": "npm run clean:build && npm run clean:publicResources",
     "build-css": "node-sass-chokidar src/styles/scss -o public/styles/css",
     "watch-css": "npm run build-css && node-sass-chokidar src/styles/scss/ -o public/styles/css/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
+    "prebuild": "cp -r src/images/public/ public/images/",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
