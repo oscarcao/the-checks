@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#4A4A4A" font-family="OpenSans-Semibold, Open Sans" font-size="18" font-weight="500" transform="translate(-310 -371)">
+            <tspan x="316.778" y="327.121">Save for a </tspan> <tspan x="327.606" y="347.121">holiday</tspan>
+        </text>
+        <path stroke="#979797" d="M-309.5-369.5h739v1049h-739z"/>
+        <g>
+            <circle cx="60" cy="60" r="57.5" stroke="#000" stroke-width="5"/>
+            <g fill="#000" fill-rule="nonzero">
+                <path d="M90 42.403L82.355 35.7 74.71 29l-7.645 6.701-7.644 6.702h8.366C64.969 59.796 48.982 73.327 30.789 70.45c-.8-.126-1.124.957-.338 1.231 22.641 7.921 48.725-5.093 52.498-29.278H90z"/>
+                <path d="M73 65a41.468 41.468 0 0 1-8 5.828V93h8V65zM54 93h8V73a43.828 43.828 0 0 1-8 2.533V93zM77 93h8V45h-.202c-1.255 6.126-3.98 11.67-7.798 16.354V93zM38 74.942A44.149 44.149 0 0 1 30 73v19h8V74.942zM41 93h8V76c-1.82.223-3.673.34-5.557.34-.817 0-1.631-.03-2.443-.075V93z"/>
+            </g>
+        </g>
+    </g>
+</svg>

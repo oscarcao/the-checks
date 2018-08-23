@@ -1,0 +1,525 @@
+.dh-control-input.icon-active-social-life {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/active-social-life.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/active-social-life-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-beer {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/beer.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/beer-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-being-there-family {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/being-there-family.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/being-there-family-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-cheese {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/cheese.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/cheese-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-children {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/children.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/children-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-close-friends {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/close-friends.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/close-friends-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-community {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/community.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/community-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-couple {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/couple.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/couple-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-ends-meet {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/ends-meet.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/ends-meet-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-enjoy-life {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/enjoy-life.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/enjoy-life-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-exercise {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/exercise.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/exercise-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-existing-condition {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/existing-condition.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/existing-condition-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-feel-younger {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/feel-younger.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/feel-younger-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-grandkids {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/grandkids.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/grandkids-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-high-intensity {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/high-intensity.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/high-intensity-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-investments {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/investments.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/investments-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+
+.dh-control-input.icon-jeans {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/jeans.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/jeans-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+/*
+
+template
+
+.dh-control-input.icon-cheese {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/cheese.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/cheese-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+}
+*/

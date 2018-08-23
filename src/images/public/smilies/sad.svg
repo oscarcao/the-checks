@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle fill="#ffffff" cx="20" cy="20" r="20"></circle>
+        <g transform="translate(-137.000000, -54.000000)">
+            <g transform="translate(138.000000, 56.000000)">
+                <g transform="translate(8.666667, 12.458333)" fill="#000000" fill-rule="nonzero">
+                    <ellipse cx="3.575" cy="4.65833333" rx="3.19583333" ry="4.33333333"></ellipse>
+                    <ellipse cx="18.2541667" cy="4.65833333" rx="3.19583333" ry="4.33333333"></ellipse>
+                </g>
+                <circle stroke="#000000" stroke-width="3" cx="19.6083333" cy="19.5" r="19.1208333"></circle>
+                <rect fill="#000000" fill-rule="nonzero" transform="translate(19.595171, 28.498871) rotate(-75.096631) translate(-19.595171, -28.498871) " x="18.782638" y="21.158991" width="1.62506565" height="14.6797597"></rect>
+                <g transform="translate(7.583333, 8.125000)" fill="#000000" fill-rule="nonzero">
+                    <rect transform="translate(19.339596, 1.767586) rotate(-78.282191) translate(-19.339596, -1.767586) " x="18.5270628" y="-2.37633478" width="1.62506683" height="8.28784082"></rect>
+                    <rect transform="translate(4.690351, 1.784166) rotate(-11.717809) translate(-4.690351, -1.784166) " x="0.546430842" y="0.971632628" width="8.28784082" height="1.62506683"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

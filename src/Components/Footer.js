@@ -11,7 +11,7 @@ export default () => (
         </nav>
         <section className="dh-footer__end row">
             <div className="col-xs-12">
-                <p>FOOTER TODO</p>
+                <p></p>
             </div>
         </section>
     </footer>

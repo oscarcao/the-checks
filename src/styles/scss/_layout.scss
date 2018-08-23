@@ -1,3 +1,8 @@
-.dh-layout {
-    max-width: 740px;
+.dh-layout.container {
+    @include AU-space( width, 46.5unit );
+}
+
+.content-wrapper {
+    @include AU-space( width, 31.5unit);
+    margin: 0 auto;
 }
