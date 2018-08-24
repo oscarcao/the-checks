@@ -2219,3 +2219,35 @@ template
   display: inline-block;
   width: 20%;
   text-align: center; }
+
+.dh-narrative {
+  position: relative;
+  background-color: #068475;
+  border-radius: 10px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  padding: 48px;
+  padding: 3rem;
+  margin-top: 32px;
+  margin-top: 2rem;
+  margin-left: 16px;
+  margin-left: 1rem;
+  margin-right: 16px;
+  margin-right: 1rem;
+  margin-bottom: 48px;
+  margin-bottom: 3rem; }
+  .dh-narrative:after {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: -55px;
+    height: 55px;
+    width: 80px;
+    background-image: url(../../images/narrative-bubble-tip.svg);
+    background-repeat: no-repeat; }
