@@ -1754,9 +1754,6 @@ textarea.au-text-input {
   .question-wrapper .question-option {
     margin: 0; }
 
-.icon {
-  display: inline-grid; }
-
 .button-wrapper {
   text-align: center;
   font-size: 30px;
@@ -1768,9 +1765,14 @@ textarea.au-text-input {
   width: 744px;
   width: 46.5rem; }
 
-.content-wrapper {
+.narrow-content-wrapper {
   width: 504px;
   width: 31.5rem;
+  margin: 0 auto; }
+
+.wide-content-wrapper {
+  width: 704px;
+  width: 44rem;
   margin: 0 auto; }
 
 .dh-header h1 {
@@ -2099,54 +2101,67 @@ template
     }
 }
 */
-.icon-style-square .dh-control-input__input + .dh-control-input__text:before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23313131' cx='16' cy='16' r='16'/%3E%3Ccircle fill='%23efefef' cx='16' cy='16' r='14'/%3E%3C/svg%3E"); }
+.icon-style-square {
+  margin-left: 16px;
+  margin-left: 1rem;
+  margin-right: 16px;
+  margin-right: 1rem; }
+  .icon-style-square .dh-control-input__input {
+    left: 60px;
+    left: 3.75rem;
+    top: 60px;
+    top: 3.75rem; }
+  .icon-style-square .dh-control-input__text {
+    display: block;
+    color: #313131;
+    text-align: left;
+    text-indent: -1000em;
+    padding-top: 190px;
+    padding-top: 11.875rem;
+    width: 144px;
+    width: 9rem; }
+    .icon-style-square .dh-control-input__text:before, .icon-style-square .dh-control-input__text:after {
+      width: 144px;
+      width: 9rem;
+      height: 190px;
+      height: 11.875rem;
+      content: ' ';
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-position: center center;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      border: 3px solid transparent; }
+    .icon-style-square .dh-control-input__text:after {
+      z-index: 101; }
 
-.icon-style-square .dh-control-input__input + .dh-control-input__text:after {
-  background-image: none; }
+.dh-control-input.icon-vegetables-0 .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-0.svg); }
 
-.icon-style-square .dh-control-input__input:checked + .dh-control-input__text:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23313131' cx='16' cy='16' r='11'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-vegetables-0 .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-0-alt.svg); }
 
-.icon-style-square .dh-control-input__input:disabled + .dh-control-input__text:before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23c1c1c1' cx='16' cy='16' r='16'/%3E%3Ccircle fill='%23dbdbdb' cx='16' cy='16' r='14'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-vegetables-1-2 .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-1-2.svg); }
 
-.icon-style-square .dh-control-input__input:disabled:checked + .dh-control-input__text:after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle fill='%23c1c1c1' cx='16' cy='16' r='11'/%3E%3C/svg%3E"); }
+.dh-control-input.icon-vegetables-1-2 .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-1-2-alt.svg); }
 
-/**
- * The label text
- */
-/*
-.dh-control-input__text {
-	@include AU-fontgrid( sm );
-	@include AU-space( padding, 0.25unit 0.5unit 0.5unit 2.5unit );
-	@include AU-space( margin-right, 1unit );
-	display: block;
-	font-family: $AU-font;
-	color: $AU-color-foreground-text;
+.dh-control-input.icon-vegetables-3-4 .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-3-4.svg); }
 
-	// styling for both SVG layers
-	&:before,
-	&:after {
-		@include AU-space( width, 2.375unit );
-		@include AU-space( height, 2.375unit );
-		content: ' ';
-		display: block;
-		position: absolute;
-		box-sizing: border-box;
-		background-repeat: no-repeat;
-		z-index: 100;
-		left: -3px; // offset for 3px border focus
-		top: -3px;  // offset for 3px border focus
-		border: 3px solid transparent;
-	}
+.dh-control-input.icon-vegetables-3-4 .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-3-4-alt.svg); }
 
-	&:after {
-		z-index: 101;
-	}
-}
-*/
+.dh-control-input.icon-vegetables-5-plus .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-5-plus.svg); }
+
+.dh-control-input.icon-vegetables-5-plus .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/vegetables-5-plus-alt.svg); }
+
 .dh-control-input-list {
   margin: 0;
   padding: 0;
