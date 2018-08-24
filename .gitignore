@@ -9,8 +9,7 @@ yarn-error.log*
 build/
 
 # Public Images
-public/images/icons/
-public/images/smilies/
+public/images/
 
 # Generated CSS files
 public/styles/css/main.css

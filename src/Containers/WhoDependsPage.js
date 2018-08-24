@@ -15,27 +15,27 @@ export default function WhoDependsPage () {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="narrow-content-wrapper">
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="partner" label="Partner" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="children" label="Children" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="grandkids" label="Grandkids" />   
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="partner" label="Partner" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="children" label="Children" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="grandkids" label="Grandkids" />   
                     </div> 
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-12">
                     <div className="narrow-content-wrapper">
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="close-friends" label="Close friends" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="siblings" label="Family members" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="parents" label="Parents" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="close-friends" label="Close friends" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="siblings" label="Family members" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="parents" label="Parents" />
                     </div>                    
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-12">
                     <div className="narrow-content-wrapper">
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="pets" label="Pets" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="community" label="Community" />
-                        <DHControlInput name="wdoy" iconStyle="circle" icon="not-available" label="None of these" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="pets" label="Pets" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="community" label="Community" />
+                        <DHControlInput multiple name="wdoy" iconStyle="circle" icon="not-available" label="None of these" />
                     </div>                    
                 </div>
             </div>
