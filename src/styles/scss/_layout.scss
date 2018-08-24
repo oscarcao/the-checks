@@ -2,7 +2,12 @@
     @include AU-space( width, 46.5unit );
 }
 
-.content-wrapper {
+.narrow-content-wrapper {
     @include AU-space( width, 31.5unit);
+    margin: 0 auto;
+}
+
+.wide-content-wrapper {
+    @include AU-space( width, 44unit );
     margin: 0 auto;
 }

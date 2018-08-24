@@ -2,6 +2,7 @@ import React from 'react';
 
 import SamplePage from './Containers/SamplePage'
 import WhoDependsPage from './Containers/WhoDependsPage'
+import VegetablesPage from './Containers/VegetablesPage'
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
       <SamplePage />
       <hr />
       <WhoDependsPage />
+      <hr />
+      <VegetablesPage />
     </div>
   );
 }
