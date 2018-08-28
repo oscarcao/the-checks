@@ -1,0 +1,91 @@
+.dh-quantity-selector {
+    @include AU-space( width, 7.5unit );
+    @include AU-space( margin-left, 1.75unit );
+    @include AU-space( margin-right, 1.75unit );
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: OpenSans;
+
+    .au-select {
+        border: 2px solid #999999;
+        background-color: #eeeeee;
+        background-image: url(../../images/select-button-arrows.svg);
+        background-position: right 3px center;
+    }
+}
+
+.dh-quantity-selector__icon {
+    position: relative;
+    @include AU-space( padding-top, 8unit );
+    @include AU-space( width, 7.5unit );
+    @include AU-space( min-height, 3.5unit );
+
+    &:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        @include AU-space( width, 7.5unit );
+        @include AU-space( height, 7.5unit );
+        background-repeat: no-repeat;
+    }
+
+    &--low-intensity {
+        &:before {
+            background-image: url(../../images/icons/low-intensity.svg);
+        }
+    }
+
+    &--moderate-intensity {
+        &:before {
+            background-image: url(../../images/icons/mod-intensity.svg);
+        }
+    }
+
+    &--high-intensity {
+        &:before {
+            background-image: url(../../images/icons/high-intensity.svg);
+        }
+    }
+
+    &--strengthening {
+        &:before {
+            background-image: url(../../images/icons/strengthening.svg);
+        }
+    }
+}
+
+.dh-quantity-selector__icon-label {    
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+}
+
+.dh-quantity-selector__examples {
+    @include AU-space( min-height, 7.5unit );
+}
+
+.dh-quantity-selector__example {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+}
+
+.dh-quantity-selector__label-unit {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+}

@@ -2,7 +2,7 @@
   "name": "the-checks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nick-transform.github.io/the-checks/",
+  "homepage": "https://oscarcao.github.io/the-checks/",
   "dependencies": {
     "@gov.au/body": "^2.0.10",
     "@gov.au/buttons": "^3.0.3",
