@@ -1,5 +1,7 @@
 .dh-smiley-selector {
     border: 1px solid #979797;
+    @include AU-space( margin-top, 1unit );
+    @include AU-space( margin-bottom, 1unit );
 }
 
 .dh-smiley-selector__heading {

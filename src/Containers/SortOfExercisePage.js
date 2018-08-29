@@ -4,7 +4,7 @@ import Layout from '../Components/Layout'
 import {QuestionWithOption} from '../Components/QuestionOption'
 import DHQuantitySelector from '../Components/DHQuantitySelector'
 
-export default function VegetablesPage () {
+export default function SortOfExercisePage () {
     return (
         <Layout currentPage={28} numPages={32}>
             <QuestionWithOption

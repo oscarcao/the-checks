@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SamplePage from './Containers/SamplePage'
+import HowConfidentYouFeelPage from './Containers/HowConfidentYouFeelPage'
 import HowAreYouFeelingPage from './Containers/HowAreYouFeelingPage'
 import WhoDependsPage from './Containers/WhoDependsPage'
 import VegetablesPage from './Containers/VegetablesPage'
@@ -12,6 +13,8 @@ export default function App() {
   return (
     <div>
       <SamplePage />
+      <hr />
+      <HowConfidentYouFeelPage />
       <hr />
       <HowAreYouFeelingPage />
       <hr />

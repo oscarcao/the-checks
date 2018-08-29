@@ -4,7 +4,7 @@ import Layout from '../Components/Layout'
 import {QuestionWithOption} from '../Components/QuestionOption'
 import DHSlider from '../Components/DHSlider'
 
-export default function VegetablesPage () {
+export default function HowAreYouFeelingPage () {
     return (
         <Layout currentPage={26} numPages={32}>
             <QuestionWithOption
