@@ -2431,6 +2431,78 @@ textarea.au-text-input {
 .icon-spirits.dh-quantity-selector__icon:before {
   background-image: url(../../images/icons/spirits.svg); }
 
+.icon-mortgage .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/mortgage.svg); }
+
+.icon-mortgage .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/mortgage-alt.svg); }
+
+.icon-mortgage.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/mortgage.svg); }
+
+.icon-save-holiday .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/save-holiday.svg); }
+
+.icon-save-holiday .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/save-holiday-alt.svg); }
+
+.icon-save-holiday.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/save-holiday.svg); }
+
+.icon-retirement-savings .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/retirement-savings.svg); }
+
+.icon-retirement-savings .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/retirement-savings-alt.svg); }
+
+.icon-retirement-savings.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/retirement-savings.svg); }
+
+.icon-pay-debt .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/pay-debt.svg); }
+
+.icon-pay-debt .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/pay-debt-alt.svg); }
+
+.icon-pay-debt.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/pay-debt.svg); }
+
+.icon-rainy-day .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/rainy-day.svg); }
+
+.icon-rainy-day .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/rainy-day-alt.svg); }
+
+.icon-rainy-day.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/rainy-day.svg); }
+
+.icon-provide-family .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/provide-family.svg); }
+
+.icon-provide-family .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/provide-family-alt.svg); }
+
+.icon-provide-family.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/provide-family.svg); }
+
+.icon-medical-expenses .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/medical-expenses.svg); }
+
+.icon-medical-expenses .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/medical-expenses-alt.svg); }
+
+.icon-medical-expenses.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/medical-expenses.svg); }
+
+.icon-other .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/other.svg); }
+
+.icon-other .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/other-alt.svg); }
+
+.icon-other.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/other.svg); }
+
 /*
 
 template
