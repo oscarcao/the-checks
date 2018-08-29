@@ -5,6 +5,7 @@ import WhoDependsPage from './Containers/WhoDependsPage'
 import VegetablesPage from './Containers/VegetablesPage'
 import SampleNarrativePage from './Containers/SampleNarrativePage'
 import SortOfExercisePage from './Containers/SortOfExercisePage'
+import DrinksPage from './Containers/DrinksPage'
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
       <SampleNarrativePage />
       <hr />
       <SortOfExercisePage />
+      <hr />
+      <DrinksPage />
     </div>
   );
 }
