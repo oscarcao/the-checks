@@ -2067,7 +2067,11 @@ textarea.au-text-input {
     background-color: #14b690; }
 
 .dh-smiley-selector {
-  border: 1px solid #979797; }
+  border: 1px solid #979797;
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem; }
 
 .dh-smiley-selector__heading {
   margin-top: 8px;
@@ -2117,13 +2121,21 @@ textarea.au-text-input {
     background-image: url(../../images/narrative-bubble-tip.svg);
     background-repeat: no-repeat; }
 
-.dh-quantity-selector {
-  width: 120px;
-  width: 7.5rem;
+.narrow-content-wrapper .dh-quantity-selector {
+  margin-left: 24px;
+  margin-left: 1.5rem;
+  margin-right: 24px;
+  margin-right: 1.5rem; }
+
+.wide-content-wrapper .dh-quantity-selector {
   margin-left: 28px;
   margin-left: 1.75rem;
   margin-right: 28px;
-  margin-right: 1.75rem;
+  margin-right: 1.75rem; }
+
+.dh-quantity-selector {
+  width: 120px;
+  width: 7.5rem;
   display: inline-block;
   text-align: center;
   vertical-align: top;
@@ -2176,6 +2188,7 @@ textarea.au-text-input {
   letter-spacing: normal; }
 
 .dh-quantity-selector__label-unit {
+  display: block;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -2399,6 +2412,24 @@ textarea.au-text-input {
 
 .icon-not-available.dh-quantity-selector__icon:before {
   background-image: url(../../images/icons/not-available.svg); }
+
+.icon-wine .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/wine.svg); }
+
+.icon-wine .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/wine-alt.svg); }
+
+.icon-wine.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/wine.svg); }
+
+.icon-spirits .dh-control-input__input + .dh-control-input__text:before {
+  background-image: url(../../images/icons/spirits.svg); }
+
+.icon-spirits .dh-control-input__input:checked + .dh-control-input__text:before {
+  background-image: url(../../images/icons/spirits-alt.svg); }
+
+.icon-spirits.dh-quantity-selector__icon:before {
+  background-image: url(../../images/icons/spirits.svg); }
 
 /*
 
