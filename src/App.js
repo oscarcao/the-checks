@@ -3,6 +3,7 @@ import React from 'react';
 import SamplePage from './Containers/SamplePage'
 import HowConfidentYouFeelPage from './Containers/HowConfidentYouFeelPage'
 import HowAreYouFeelingPage from './Containers/HowAreYouFeelingPage'
+import DoYouDrinkPage from './Containers/DoYouDrinkPage'
 import WhoDependsPage from './Containers/WhoDependsPage'
 import VegetablesPage from './Containers/VegetablesPage'
 import SampleNarrativePage from './Containers/SampleNarrativePage'
@@ -25,6 +26,8 @@ export default function App() {
       <SampleNarrativePage />
       <hr />
       <SortOfExercisePage />
+      <hr />
+      <DoYouDrinkPage />
       <hr />
       <DrinksPage />
     </div>
