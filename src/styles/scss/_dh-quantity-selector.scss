@@ -31,30 +31,6 @@
         @include AU-space( height, 7.5unit );
         background-repeat: no-repeat;
     }
-
-    &--low-intensity {
-        &:before {
-            background-image: url(../../images/icons/low-intensity.svg);
-        }
-    }
-
-    &--moderate-intensity {
-        &:before {
-            background-image: url(../../images/icons/mod-intensity.svg);
-        }
-    }
-
-    &--high-intensity {
-        &:before {
-            background-image: url(../../images/icons/high-intensity.svg);
-        }
-    }
-
-    &--strengthening {
-        &:before {
-            background-image: url(../../images/icons/strengthening.svg);
-        }
-    }
 }
 
 .dh-quantity-selector__icon-label {    

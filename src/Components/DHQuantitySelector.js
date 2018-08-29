@@ -26,7 +26,7 @@ export default class DHQuantitySelector extends React.PureComponent {
 
         return (
             <div className="dh-quantity-selector">
-                <div className={`dh-quantity-selector__icon dh-quantity-selector__icon--${icon}`}>
+                <div className={`dh-quantity-selector__icon icon-${icon}`}>
                     <span className="dh-quantity-selector__icon-label">{iconLabel}</span>
                 </div>
                 {examples && 

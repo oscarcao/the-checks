@@ -1,4 +1,4 @@
-.dh-control-input.icon-active-social-life {
+.icon-active-social-life {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -25,9 +25,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/active-social-life.svg);
+    }
 }
 
-.dh-control-input.icon-beer {
+.icon-beer {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -54,9 +58,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/beer.svg);
+    }
 }
 
-.dh-control-input.icon-being-there-family {
+.icon-being-there-family {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -83,9 +91,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/being-there-family.svg);
+    }
 }
 
-.dh-control-input.icon-cheese {
+.icon-cheese {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -112,9 +124,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/cheese.svg);
+    }
 }
 
-.dh-control-input.icon-children {
+.icon-children {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -141,9 +157,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/children.svg);
+    }
 }
 
-.dh-control-input.icon-close-friends {
+.icon-close-friends {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -170,9 +190,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/close-friends.svg);
+    }
 }
 
-.dh-control-input.icon-community {
+.icon-community {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -199,9 +223,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/community.svg);
+    }
 }
 
-.dh-control-input.icon-couple {
+.icon-couple {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -228,9 +256,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/couple.svg);
+    }
 }
 
-.dh-control-input.icon-ends-meet {
+.icon-ends-meet {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -257,9 +289,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/ends-meet.svg);
+    }
 }
 
-.dh-control-input.icon-enjoy-life {
+.icon-enjoy-life {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -286,9 +322,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/enjoy-life.svg);
+    }
 }
 
-.dh-control-input.icon-exercise {
+.icon-exercise {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -315,9 +355,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/exercise.svg);
+    }
 }
 
-.dh-control-input.icon-existing-condition {
+.icon-existing-condition {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -344,9 +388,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/existing-condition.svg);
+    }
 }
 
-.dh-control-input.icon-feel-younger {
+.icon-feel-younger {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -373,9 +421,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/feel-younger.svg);
+    }
 }
 
-.dh-control-input.icon-grandkids {
+.icon-grandkids {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -402,9 +454,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/grandkids.svg);
+    }
 }
 
-.dh-control-input.icon-high-intensity {
+.icon-high-intensity {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -431,9 +487,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/high-intensity.svg);
+    }
 }
 
-.dh-control-input.icon-investments {
+.icon-investments {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -460,9 +520,13 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/investments.svg);
+    }
 }
 
-.dh-control-input.icon-jeans {
+.icon-jeans {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
@@ -489,24 +553,25 @@
             }
         }
     }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/jeans.svg);
+    }
 }
-/*
 
-template
-
-.dh-control-input.icon-cheese {
+.icon-low-intensity {
     .dh-control-input__input {
         // normal
         & + .dh-control-input__text {
             &:before {
-                background-image: url(../../images/icons/cheese.svg);
+                background-image: url(../../images/icons/low-intensity.svg);
             }
         }
 
         // normal checked
         &:checked + .dh-control-input__text {
             &:before {
-                background-image: url(../../images/icons/cheese-alt.svg);
+                background-image: url(../../images/icons/low-intensity-alt.svg);
             }
         }
 
@@ -520,6 +585,245 @@ template
                 
             }
         }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/low-intensity.svg);
+    }
+}
+
+.icon-moderate-intensity {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/mod-intensity.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/mod-intensity-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/mod-intensity.svg);
+    }
+}
+
+.icon-strengthening {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/strengthening.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/strengthening-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/strengthening.svg);
+    }
+}
+
+.icon-partner {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/partner.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/partner-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/partner.svg);
+    }
+}
+
+.icon-parents {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/parents.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/parents-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/parents.svg);
+    }
+}
+
+.icon-pets {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/pets.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/pets-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/pets.svg);
+    }
+}
+
+.icon-not-available {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/not-available.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/not-available-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/not-available.svg);
+    }
+}
+
+/*
+
+template
+
+.icon-tempicon {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/tempicon.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/tempicon-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/tempicon.svg);
     }
 }
 */
