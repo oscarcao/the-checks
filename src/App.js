@@ -9,6 +9,7 @@ import VegetablesPage from './Containers/VegetablesPage'
 import SampleNarrativePage from './Containers/SampleNarrativePage'
 import SortOfExercisePage from './Containers/SortOfExercisePage'
 import DrinksPage from './Containers/DrinksPage'
+import FinancialPrioritiesPage from './Containers/FinancialPrioritiesPage'
 
 export default function App() {
   return (
@@ -30,6 +31,8 @@ export default function App() {
       <DoYouDrinkPage />
       <hr />
       <DrinksPage />
+      <hr />
+      <FinancialPrioritiesPage />
     </div>
   );
 }

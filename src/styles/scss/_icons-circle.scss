@@ -856,6 +856,270 @@
     }
 }
 
+.icon-mortgage {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/mortgage.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/mortgage-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/mortgage.svg);
+    }
+}
+
+.icon-save-holiday {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/save-holiday.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/save-holiday-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/save-holiday.svg);
+    }
+}
+
+.icon-retirement-savings {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/retirement-savings.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/retirement-savings-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/retirement-savings.svg);
+    }
+}
+
+.icon-pay-debt {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/pay-debt.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/pay-debt-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/pay-debt.svg);
+    }
+}
+
+.icon-rainy-day {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/rainy-day.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/rainy-day-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/rainy-day.svg);
+    }
+}
+
+.icon-provide-family {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/provide-family.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/provide-family-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/provide-family.svg);
+    }
+}
+
+.icon-medical-expenses {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/medical-expenses.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/medical-expenses-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/medical-expenses.svg);
+    }
+}
+
+.icon-other {
+    .dh-control-input__input {
+        // normal
+        & + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/other.svg);
+            }
+        }
+
+        // normal checked
+        &:checked + .dh-control-input__text {
+            &:before {
+                background-image: url(../../images/icons/other-alt.svg);
+            }
+        }
+
+        // disabled
+        &:disabled {
+            & + .dh-control-input__text:before {
+                
+            }
+
+            &:checked + .dh-control-input__text:before {
+                
+            }
+        }
+    }
+
+    &.dh-quantity-selector__icon:before {
+        background-image: url(../../images/icons/other.svg);
+    }
+}
+
 /*
 
 template
